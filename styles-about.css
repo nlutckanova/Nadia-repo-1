@@ -3,7 +3,7 @@
     padding: 0px;
 }
 header{
-    background-color: rgb(136, 127, 255);
+    background-color: rgb(214, 151, 55);
 }
 header nav {
     text-align: center;
@@ -28,5 +28,4 @@ main .description p {
     }
 footer {
     text-align: center; 
-    background-color: rgb(136, 127, 255);
-}
+    background-color: rgb(214, 151, 55);
