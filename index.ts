@@ -49,32 +49,63 @@ stringValue = [10, 20, 30];
 
 console.log ("stringValue", stringValue);
 //Homework ts
-//Exescise 1 - even ot odd
+//Exercise 1 - even or odd
 let num: number = 7;
 let isEven: boolean = num % 2 === 0;
 console.log(`The number ${num} is ${isEven ? "even" : "odd"}.`);
 
-//Exescise 2
+//Exercise 2
 let text: string = "Hello, TypeScript!";
 let isLong: boolean = text.length > 10;
 console.log(`The text "${text}" ${isLong ? "has more" : "has 10 or fewer"} than 10 characters.`);
 
-//Exescise 3 mi dava error
+//Exercise 3 mi dava error
 //let number: number = 5;
 let isPositive: boolean = number > 0;
 console.log(`The number ${number} is ${isPositive ? "positive" : "not positive"}.`);
 
-//Exescise 4 negative or zero?
+//Exercise 4 negative or zero?
 let numCheck: number = 5;
 let isNonPositive: boolean = numCheck <= 0;
 console.log(`The number ${numCheck} is ${isNonPositive ? "negative or zero" : "positive"}.`);
 
-//Exescise 5
+//Exercise 5
 
 let isEmpty: boolean = message === "Homework";
 console.log (`The message is ${isEmpty ? "empty" : "not empty"}.`);
 
-//Exescise 6
+//Exercise 6
 let rangeNumber: number = 25;
 let isInRange: boolean = rangeNumber >= 10 && rangeNumber <= 100;
 console.log(`The number ${rangeNumber} is ${isInRange ? "within" : "out of"} the range 10 to 100.`);
+
+//Lesson 5
+
+const isPositiveNum: string =
+5 > 0 ? "The number is positive" : "The number is negative";
+
+//Ternary operator
+const age: number = 30;
+const myName: string = "Pesho";
+const personDescription = age < 40 
+? '$ {my name} is younger than 40. He is ${age} years old. '
+: '$ {my name} is older than 40. He is ${age} years old. ';
+
+console.log("personDescription", personDescription);
+
+const personName = 'His name is "${My name}".';
+
+// If else statements
+
+if (age < 40 ) {
+console.log("Age are lower than 40");
+
+} else {
+    ("Age are greater than 40");
+}
+
+//Type Alias
+type PersonInfoType = string | number
+
+const personNameInf: PersonInfoType = "Ivan"
+const personAgeInf: PersonInfoType = 25;
