@@ -20,3 +20,5 @@ interface Country {
   population: number;
   language: string;
 }
+console.log();
+export {};
