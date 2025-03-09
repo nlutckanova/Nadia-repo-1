@@ -69,3 +69,10 @@ console.log(studentNames);
 //Exercise Three
 // Declare a function "sortStudents" that receive students array result from the previous exercise
 // and sort them by ascending
+
+function sortStudents(studentNames: string[]): string[] {
+  return studentNames.sort();
+}
+
+const sortedStudentNames = sortStudents(studentNames);
+console.log(sortedStudentNames);
