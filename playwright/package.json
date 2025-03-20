@@ -1,0 +1,22 @@
+{
+  "name": "nadia-repo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlutckanova/Nadia-repo-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlutckanova/Nadia-repo-1/issues"
+  },
+  "homepage": "https://github.com/nlutckanova/Nadia-repo-1#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10"
+  }
+}
